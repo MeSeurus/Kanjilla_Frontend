@@ -1,0 +1,28 @@
+// app global css in SCSS form
+
+//LOGO header
+@font-face {
+  font-family: customfont;
+  src: url(./fonts/knewave.ttf);
+}
+
+@font-face {
+  font-family: jline;
+  src: url(./fonts/line.woff);
+}
+
+.my-logo-header {
+  font-family: 'customfont';
+}
+
+.my-japanese-text {
+  font-family: jline;
+}
+
+.my-table {
+  padding: 5% 20%;
+}
+
+.my-carousel {
+  padding: 2% 10%;
+}
